@@ -25,3 +25,16 @@ export function quadrado(lado: number): number {
 export function retangulo(base: number, altura: number): number {
     return (base * altura);
 }
+
+export function losango(D: number, d: number): number {
+    return (D * d) / 2;
+}
+
+export function trapézio(B: number, b: number, h: number): number {
+    return ((B + b) * h) / 2;
+}
+
+export function circulo(r: number): number {
+    let PI = 3.14;
+    return (PI * (r ** 2));
+}
